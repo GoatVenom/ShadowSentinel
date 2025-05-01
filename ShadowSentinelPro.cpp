@@ -9,7 +9,7 @@
 #include <random>
 #include <curl/curl.h>
 #include <unordered_map>
-#include <cstdlib>  // for system()
+#include <cstdlib>  
 
 
 std::unordered_map<std::string, int> accessCountMap;
@@ -75,7 +75,7 @@ void sendDiscordWebhook(const std::string& title, const std::vector<std::pair<st
     CURL* curl;
     CURLcode res;
 
-    const std::string webhookURL = "https://discord.com/api/webhooks/1365946350398738463/nhS5k0DIJCSGXALY8gpr1pf9N685tkZn39OX-zBkpJcfUC_btH0hZhWvTgGpaGhMPxz4";
+    const std::string webhookURL = "Insert your Webhook URL here";
 
     curl = curl_easy_init();
     if (curl) {
