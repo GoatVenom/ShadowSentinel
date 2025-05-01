@@ -1,6 +1,3 @@
-# ShadowSentinel
-Windows Honeypot Deception tool
-
 
 # ShadowSentinel Honeypot Tool
 
