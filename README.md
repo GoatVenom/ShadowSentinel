@@ -39,7 +39,7 @@ Windows Honeypot Deception tool
    - Provides detailed alerts including the suspicion level and the type of access.
 
 ### 6. **File Locking**
-   - Implements file locking by setting files as read-only after access, simulating the behavior of ransomware.
+   - Implements file locking by setting files as read-only after access
    - Traps attackers into interacting with locked files, giving more time for analysis.
 
 ---
