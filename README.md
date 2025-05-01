@@ -10,8 +10,7 @@
 ### 1. **Fake Admin Console**
    - Simulates an administrative control panel to engage attackers.
    - Displays fake system status and logs.
-   - Includes a series of mock commands that look like they control critical system functions.
-   - Generates fake outputs for commands like `list_users`, `dump_creds`, and `server_config`.
+  
 
 ### 2. **Fake Sensitive Files**
    - Generates and hides fake files that contain mock credentials, bank information, personal details, and system configurations.
